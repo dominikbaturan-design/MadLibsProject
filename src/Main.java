@@ -44,7 +44,10 @@ public class Main {
 		String N3 = in.nextLine();
 		System.out.println(" Give me a food:");
 		String food = in.nextLine();
-		System.out.print("I love "+pluralNoun+", I usually enjoy it while " +verb+ ". The other day, while I was " +V2+ ", I found a " +N2+ " that was " +adjective+ ", and it realy scared me. After my " +num+ " birthday, I got a " +N3+" which was " +A2+", it was deliciouse. Now before you think I am crazy, I did have some" +food+ " earlier.");
+		System.out.println(" Give me a number:");
+		int number = in.nextInt();
+		in.nextLine();
+		System.out.print("I love "+pluralNoun+", I usually enjoy it while " +verb+ ". The other day, while I was " +V2+ ", I found a " +N2+ " that was " +adjective+ ", and it realy scared me. After my " +num+ " birthday, I got a " +N3+" which was " +A2+", it was deliciouse. Now before you think I am crazy, I did have some " +food+ " earlier. Though I didn't over eat, I only had " +number+ ".");
 		
 		
 		
